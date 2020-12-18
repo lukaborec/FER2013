@@ -10,7 +10,7 @@ json_file.close()
 model = model_from_json(model_json)
 
 #Load the model weights
-model.load_weights('/Users/lukaborec/Downloads/model.h5')
+model.load_weights('model.h5')
 
 #Expression dictionary
 expression_dict = {0:'Angry', 
