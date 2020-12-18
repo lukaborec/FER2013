@@ -4,7 +4,7 @@ from keras.models import model_from_json
 
 #Loading the classifier model
 #Load the JSON file
-json_file = open('/Users/lukaborec/Downloads/model.json', 'r')
+json_file = open('model.json', 'r')
 model_json = json_file.read()
 json_file.close()
 model = model_from_json(model_json)
